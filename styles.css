@@ -8,10 +8,11 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-}
-
-header h1 {
-    margin: 0;
+    height: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -19,9 +20,20 @@ nav ul {
     padding: 0;
 }
 
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    margin-left: 50px;
+}
+
+/* header h1 {
+    margin: 0;
+}
+*/
+
 nav ul li {
     display: inline;
-    margin-right: 20px;
+   /* margin-right: 20px; */
 }
 
 nav ul li a {
@@ -30,15 +42,12 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    
+    width: 100%;
 }
 
 section {
     margin-bottom: 40px;
-}
-
-h2 {
-    color: #333;
 }
 
 footer {
@@ -47,3 +56,81 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.base1 {
+    height: auto;
+    position: relative;
+    border: 1px black solid;
+    background-color: #233e14;
+    border-right: 0px;
+    display: flex;
+   
+  }
+
+.texto {
+    font-family:cursive;
+    padding: 10px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.depoimentos {
+    height: auto;
+    position: relative;
+    border: 1px black solid;
+    background-color: #585858;
+    border-right: 0px;
+    display: flex;
+}
+
+.voluntario {
+    
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    margin-left: 450px;
+    width: 600px;
+}
+/*
+
+Banner
+Depoimentos(confirmação do banner)
+Missao e valores
+Contato
+Sobre com projetos realizados
+
+Fazer:
+
+Geral:
+Cores e fontes
+
+Nav:
+Cores e fontes
+
+Depoimentos:
+Ver se da pra por imagem, caso não só icones e falas
+
+Missão e valores:
+Fazer do zero
+
+Contato(formulário):
+Preencher o formulário
+Perguntas:
+
+Qual seu nome?
+Qual seu e-mail
+Você tem preferencia de voluntariado?
+
+Aceitar os termos:
+
+Tenho mais de 18 anos
+
+Sobre:
+"Veja mais projetos da BomAmigo"
+
+
+
+*/
