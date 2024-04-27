@@ -1,3 +1,15 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,11 +20,8 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    height: 10px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+
 }
 
 nav ul {
@@ -21,19 +30,19 @@ nav ul {
 }
 
 h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
     margin-left: 50px;
 }
 
 /* header h1 {
-    margin: 0;
-}
-*/
+        margin: 0;
+    }
+    */
 
 nav ul li {
     display: inline;
-   /* margin-right: 20px; */
+    /* margin-right: 20px; */
 }
 
 nav ul li a {
@@ -42,13 +51,13 @@ nav ul li a {
 }
 
 main {
-    
     width: 100%;
 }
 
 section {
-    margin-bottom: 40px;
+    padding: 20px;
 }
+
 
 footer {
     background-color: #333;
@@ -64,11 +73,11 @@ footer {
     background-color: #233e14;
     border-right: 0px;
     display: flex;
-   
-  }
+
+}
 
 .texto {
-    font-family:cursive;
+    font-family: cursive;
     padding: 10px;
     margin-top: 150px;
     text-align: center;
@@ -81,10 +90,51 @@ footer {
     background-color: #585858;
     border-right: 0px;
     display: flex;
+    margin-bottom: 10px;
 }
 
-.voluntario {
-    
+.voluntario {}
+
+#conhecimento {}
+
+#testeform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    padding: 100px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55d00;
 }
 
 .container {
@@ -94,43 +144,67 @@ footer {
     margin-left: 450px;
     width: 600px;
 }
+
+#footer {
+    height: 100px;
+    background-color: #233b15;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
 /*
-
-Banner
-Depoimentos(confirmação do banner)
-Missao e valores
-Contato
-Sobre com projetos realizados
-
-Fazer:
-
-Geral:
-Cores e fontes
-
-Nav:
-Cores e fontes
-
-Depoimentos:
-Ver se da pra por imagem, caso não só icones e falas
-
-Missão e valores:
-Fazer do zero
-
-Contato(formulário):
-Preencher o formulário
-Perguntas:
-
-Qual seu nome?
-Qual seu e-mail
-Você tem preferencia de voluntariado?
-
-Aceitar os termos:
-
-Tenho mais de 18 anos
-
-Sobre:
-"Veja mais projetos da BomAmigo"
-
-
-
-*/
+    
+    
+     <section id="contato" class="container">
+          <h2>Contato</h2>
+          <p>Preencha o formulário abaixo para receber notícias e oportunidades de voluntariado.</p>
+          <form action="#" method="post">
+            
+          </form>
+        </section>
+      </main>
+    
+    
+    Banner
+    Depoimentos(confirmação do banner)
+    Missao e valores
+    Contato
+    Sobre com projetos realizados
+    
+    Fazer:
+    
+    Geral:
+    Cores e fontes
+    
+    Nav:
+    Cores e fontes
+    
+    Depoimentos:
+    Ver se da pra por imagem, caso não só icones e falas
+    
+    Missão e valores:
+    Fazer do zero
+    
+    Contato(formulário):
+    Preencher o formulário
+    Perguntas:
+    
+    Qual seu nome?
+    Qual seu e-mail
+    Você tem preferencia de voluntariado?
+    
+    Aceitar os termos:
+    
+    Tenho mais de 18 anos
+    
+    Sobre:
+    "Veja mais projetos da BomAmigo"
+    
+    
+    
+    */
